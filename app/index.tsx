@@ -88,6 +88,6 @@ const styles = StyleSheet.create({
   headerImagePhoto: {
     width: '100%',
     height: '100%',
-    transform: [{ translateY:  }],
+    transform: [{ translateY:  0}],
   },
 });

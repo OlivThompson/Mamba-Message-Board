@@ -27,6 +27,7 @@ const demoPosts: Post[] = [
     emojis: ['👍', '💚'],
     reactions: { '👍': 42, '💚': 1 },
   },
+
   {
     id: '2',
     author: 'Admin',
