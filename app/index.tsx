@@ -5,25 +5,28 @@ import { Image } from 'expo-image';
 import { useRouter } from 'expo-router';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
+
 export default function HomeScreen() {
   const router = useRouter();
 
   const handleCreateAdmin = () => router.push('/create-admin');
   const handleLoginAdmin = () => router.push('/login-admin');
   const handleOrgPin = () => router.push('/pin-login');
-
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#ffffffff', dark: '#8b5cf6' }}
       headerImage={
-        <Image
-          source={require('@/assets/images/Screenshot (217).png')}
-          style={styles.reactLogo}
-          contentFit="cover"
-        />
+        <View style={styles.headerImage}>
+          <Image
+            source={require('@/assets/images/Screenshot (217).png')}
+            style={styles.headerImagePhoto}
+            contentFit="cover"
+          />
+        </View>
       }
     >
       <ThemedView style={styles.titleContainer}>
+                  
         <ThemedText type="title">Welcome to Mamba Message Board !</ThemedText>
       </ThemedView>
       <View style={styles.buttonContainer}>
@@ -55,12 +58,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   headerImage: {
-  width: '100%',
-  height: '100%',
-  position: 'absolute', // ensures image covers the header
-  top: 0,
-  left: 0,
+    width: '100%',
+    height: 280,
+    overflow: 'hidden',
+
   },
+  
   buttonContainer: {
     marginVertical: 12,
     marginHorizontal: 24,
@@ -80,12 +83,11 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     fontSize: 16,
+    
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+  headerImagePhoto: {
+    width: '100%',
+    height: '100%',
+    transform: [{ translateY:  }],
   },
 });
