@@ -1,4 +1,36 @@
-# Welcome to Mamba Message Board 👋
+# 🪅 Mamba Message Board 🪅
+---------------------------------------------------------------------------------------------------------------------------------
+This is a WIP project that I often take breaks from to focus on school assignments and life.
+
+## Current functionality
+- Home screen
+- User login screen
+- Example message board (access with PIN: `123456`)
+- Message board emoji dropdown menu (click and hold on a post to access)
+
+## Planned changes
+- Settings page accessible to admins
+- Allow an admin to toggle all users’ ability to chat
+- Database (DB) logic
+- Add backend logic
+- Allow admin creation
+- Allow admin login
+- Allow users to swipe the UI to switch between channels
+- Update emoji dropdown appearance
+- Update application appearance to be less feminine 💅❌.
+- Add notifications and togglable settings for notifications
+
+#UI Photos(will replace will use example GIF): 
+
+<img width="250" height="220" alt="image" src="https://github.com/user-attachments/assets/ca7ce8b5-9e32-46c9-8c5f-4a89ca839d0c" />
+
+<img width="250" height="220" alt="image" src="https://github.com/user-attachments/assets/5170302c-2b28-4d0a-b8bd-66ec8c4d73a7" />
+
+<img width="250" height="220" alt="image" src="https://github.com/user-attachments/assets/45e611f0-d28c-4b59-97ad-a2e1c40fec8e" />
+
+<img width="250" height="220" alt="image" src="https://github.com/user-attachments/assets/8b75c86e-2bda-4bdb-9ea2-7eb2d78947f7" />
+
+# How to Run
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -41,10 +73,3 @@ To learn more about developing your project with Expo, look at the following res
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
