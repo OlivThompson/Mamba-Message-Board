@@ -20,7 +20,7 @@ This is a WIP project that I often take breaks from to focus on school assignmen
 - Update application appearance to be less feminine 💅❌.
 - Add notifications and togglable settings for notifications
 
-#UI Photos(will replace will use example GIF): 
+# UI Photos(will replace will use example GIF): 
 
 <img width="250" height="220" alt="image" src="https://github.com/user-attachments/assets/ca7ce8b5-9e32-46c9-8c5f-4a89ca839d0c" />
 
